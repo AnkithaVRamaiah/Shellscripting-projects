@@ -39,7 +39,7 @@ There’s a need for an **automated, reusable script** that can quickly give a c
 
 ## 📂 Real-World Use Case:
 
-> You’re managing 10+ VMs. A few users report that their applications are slow. Instead of logging into each VM and manually checking usage, you run this **Node Health Script** — it shows memory is maxed out on 2 nodes, and one is low on disk space. You act fast. Problem solved.
+You’re managing 10+ VMs. A few users report that their applications are slow. Instead of logging into each VM and manually checking usage, you run this **Node Health Script** — it shows memory is maxed out on 2 nodes, and one is low on disk space. You act fast. Problem solved.
 
 ---
 
@@ -226,5 +226,6 @@ Every good script starts with a header:
   ```bash
   trap 'echo "Exiting..."; exit 1' SIGINT SIGTERM
   ```
+
 
 
